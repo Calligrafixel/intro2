@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'KIMM_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KIMM_Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap');
+
+* {
+    background: navy;
+    color: white;
+    font-family: 'JetBrains Mono', monospace, "KIMM_Bold";
+    font-weight: 800;
+    font-variant-ligatures: common-ligatures;
+
+    font-size: 1.2rem;
+    line-height: 2;
+}
+a {
+    text-decoration: none;
+}
+#container {
+    width = 80%;
+    position: relative;
+    margin-top: 10%;
+    left: 10%
+}
+.text {
+    color: greenyellow
+}
+.function {
+    color: dodgerblue;
+    font-style: italic;
+}
+.number {
+    color: darkorange;
+}
+
+input {
+    border: none;
+    outline: none;
+    width: 9.4rem;
+}
+#getIntro, #getBasicInfo, #showLife, #getArtwork {
+    display: none;
+}
