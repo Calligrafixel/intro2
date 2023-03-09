@@ -16,7 +16,10 @@
     font-size: 1.2rem;
     line-height: 2;
 }
--webkit-scrollbar {
+body {
+width: 90%;
+}
+::-webkit-scrollbar {
     display: none; /* Chrome, Safari, Opera*/
 }
 a {
